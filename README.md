@@ -9,7 +9,6 @@ This Project is done using Html, CSS ,Javscript. It gives you details of the ava
   * Utilizing 3rd party libraries (axios)
   * Promises, .then & .catch
   * HTTP GET requests
-  * Array Methods
 * DOM
   * Element selection
   * Basic DOM manipulation
