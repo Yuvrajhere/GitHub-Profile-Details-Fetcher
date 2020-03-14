@@ -1,5 +1,5 @@
 # GitHub Profile Details Fetcher
-This Project is done using Html, CSS ,Javscript. It gives you details of the any available github account based on the username we give as input. [Note: Its done for Learning Purpose].
+This Project is done using Html, CSS ,Javscript. It gives you details of the available github account based on the username we give as input. [Note: Its done for Learning Purpose].
 
 ### Link to the site : https://yuvrajhere.github.io/GitHub-Profile-Details-Fetcher/.
 
