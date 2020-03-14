@@ -30,7 +30,6 @@ inputButton.addEventListener('click', event => {
     }
     let newCard = cardCreator(result);
     cardsDiv.appendChild(newCard);
-    console.log(cardsDiv.firstElementChild);
   }).catch( (e) => {
     if(userName == ""){
       alert(`no input given`);
@@ -61,7 +60,7 @@ function cardCreator(cardData) {
  
   let cardUserName = document.createElement('p');
   cardUserName.classList.add('username');
-  cardUserName.textContent = cardData.data.username;
+  cardUserName.textContent = cardData.data.name;
   cardInfoDiv.appendChild(cardUserName);
 
   let cardLocation = document.createElement('p');

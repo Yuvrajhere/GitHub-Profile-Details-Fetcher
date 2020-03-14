@@ -178,37 +178,88 @@ footer {
   width: 100%;
   height: 140px;
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   border-top: 2px solid black;
 }
 
 footer h2 {
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+.Contact-Links {
+  display: flex;
+  margin: auto 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .Contact-Links p {
   font-size: 20px;
 }
 
-
-footer p {
-  font-size: 12px;
+footer .Contact-Links p:hover {
+  font-size: 28px;
 }
 
-footer p:hover {
-  font-size: 16px;
-}
-
-footer a {
+footer .Contact-Links a {
   color: black;
 }
 
-footer a:hover {
+footer .Contact-Links a:hover {
   color: #A3D9FF;
 }
 
-footer a img {
-  height: 16px;
+footer .Contact-Links a img {
+  height: 20px;
 }
 
-footer .Github-Link{
+
+
+footer.Contact-Links .Github-Link{
   display: flex;
   align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .header h1 {
+    font-size: 48px;
+    margin-left: 10px;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card img {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  .card .name {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .card .username {
+    text-align: center;
+  }
+
+  .card p {
+    margin-left: 20px;
+    font-size: 2rem;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  footer .Contact-Links {
+    margin: auto 30px;
+    justify-content: space-between;
+  }
 }
